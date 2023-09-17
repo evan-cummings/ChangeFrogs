@@ -1,0 +1,8 @@
+name: ChangeFrogs
+version: '${project.version}'
+main: fletchmod.changefrogs.ChangeFrogs
+api-version: 1.19
+commands:
+  setfrogtype:
+    description: Sets the nearest frog to the given type
+    usage: /setfrogtype
